@@ -1,4 +1,4 @@
-package com.samokisha.controllers;
+package com.samokisha.code.review.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

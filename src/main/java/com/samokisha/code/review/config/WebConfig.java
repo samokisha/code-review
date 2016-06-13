@@ -1,4 +1,4 @@
-package com.samokisha.config;
+package com.samokisha.code.review.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.samokisha")
+@ComponentScan("com.samokisha.code.review")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     // Позволяет видеть все ресурсы в папке resources, такие как картинки, стили и т.п.

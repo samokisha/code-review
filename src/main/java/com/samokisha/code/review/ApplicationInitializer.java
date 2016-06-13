@@ -1,6 +1,6 @@
-package com.samokisha;
+package com.samokisha.code.review;
 
-import com.samokisha.config.WebConfig;
+import com.samokisha.code.review.config.WebConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
